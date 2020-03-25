@@ -9,7 +9,12 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
+    "@types/express": "^4.17.3",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^12.12.31",
     "core-js": "^3.6.4",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2"
