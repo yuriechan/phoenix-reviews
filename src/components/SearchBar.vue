@@ -1,6 +1,6 @@
 <template>
     <v-card>
-        <v-toolbar color="purple" dark flat prominent>
+        <v-toolbar color="purple" dark flat>
             <v-text-field
                 class="mx-4"
                 flat
