@@ -1,19 +1,21 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-    </v-app-bar>
-
     <v-content>
-      
+       <SearchBar/>
+       <Carousels/>
     </v-content>
   </v-app>
 </template>
 
 <script>
+import SearchBar from '@/components/SearchBar.vue'
+import Carousels from '@/components/Carousels.vue'
 export default {
   name: 'App',
-
-  components: {},
+  components: {
+    SearchBar,
+    Carousels
+  },
 
   data: () => ({}),
 };
