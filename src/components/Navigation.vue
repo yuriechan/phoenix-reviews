@@ -45,7 +45,7 @@
                     <v-card v-else> 
                         <v-card-title>
                             <span class="headline">
-                                Let's get stated
+                                Let's get started
                             </span>
                         </v-card-title>
                         <v-card-text>
