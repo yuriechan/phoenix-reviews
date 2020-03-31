@@ -2,18 +2,18 @@
   <v-app>
     <v-content>
       <Navigation/>
-       <Carousels/>
+      <Carousel/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Carousels from '@/components/Carousels.vue'
+import Carousel from '@/components/Carousel.vue'
 import Navigation from '@/components/Navigation.vue'
 export default {
   name: 'App',
   components: {
-    Carousels,
+    Carousel,
     Navigation
   },
 
